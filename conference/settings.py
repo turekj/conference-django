@@ -116,4 +116,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = "/static/"
 
+# Test runners
+TEST_RUNNER="green.djangorunner.DjangoRunner"
+
 django_heroku.settings(locals())
